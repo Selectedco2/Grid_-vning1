@@ -1,0 +1,13 @@
+/* Viktiga commandon
+
+CSS:
+- display: grid; (Huvudkommando for grid)
+- Man kan använda % eller px (pixlar) eller fr (fraction) eller auto
+- grid-template-columns: [auto, %, px, fr] Mängd av columner
+- grid-template-rows: [auto, auto] Hur stora columnerna är bred, längd
+- [grid-template-rows:] repeat(3, 1fr) Repeterar de i parantesen med första värdet
+- Det finns "Kordinater" (Gridnät)
+- grid-row: [1,2]; <---[Column, Rad]
+
+*/
+
