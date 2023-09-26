@@ -1,3 +1,4 @@
+
 /* Viktiga commandon
 
 CSS:
@@ -11,3 +12,15 @@ CSS:
 
 */
 
+.grid
+{
+    display: grid;
+    grid-template-columns: 50px, 50px;
+    grid-template-rows: 50px, 100px;
+    border: solid 2px black;
+}
+
+.text
+{
+    border: solid 2px purple;
+}
