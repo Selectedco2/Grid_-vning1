@@ -11,16 +11,29 @@ CSS:
 - grid-row: [1,2]; <---[Column, Rad]
 
 */
-
+body
+{
+    background-color: blanchedalmond;
+}
 .grid
 {
     display: grid;
-    grid-template-columns: 50px, 50px;
-    grid-template-rows: 50px, 100px;
-    border: solid 2px black;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 2fr;    
+    
+    
+    
+    
 }
-
-.text
+a
 {
-    border: solid 2px purple;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+h1
+{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
 }
